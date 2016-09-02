@@ -1,0 +1,24 @@
+{
+  "name":"ethnam/generator",
+  "description": "code generator for Ethnam",
+  "type": "library",
+  "license": "BSD-4-Clause",
+  "keywords": [ "framework", "ethnam" ],
+  "homepage": "https://github.com/ethnamphp/ethnam-generator",
+  "authors": [
+        { "name": "DQNEO", "role" : "Administrator"}
+    ],
+  "require": {
+    "ethnam/getopt" : "1.*",
+    "php" : ">=5.4.0"
+  },
+  "require-dev" : {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-4": { "Ethnam\\Generator\\" : "src/" }
+  },
+  "bin" : [
+    "bin/ethnam-generator"
+  ]
+}

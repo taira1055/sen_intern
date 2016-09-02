@@ -1,0 +1,213 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1a1c802435af67eeab3cadc8b1b36061",
+    "content-hash": "c56f2cfddb61c47e6da9ebcbfd00395f",
+    "packages": [
+        {
+            "name": "ethnam/ethnam",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ethnamphp/ethnam.git",
+                "reference": "a23548ae70d43366ba0e1f88341172bc73e387ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ethnamphp/ethnam/zipball/a23548ae70d43366ba0e1f88341172bc73e387ec",
+                "reference": "a23548ae70d43366ba0e1f88341172bc73e387ec",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-4-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "DQNEO",
+                    "role": "Administrator"
+                },
+                {
+                    "name": "contributors",
+                    "homepage": "https://github.com/ethnamphp/ethnam/blob/master/AUTHORS"
+                }
+            ],
+            "description": "web application framework.",
+            "homepage": "https://github.com/ethnamphp/ethnam",
+            "keywords": [
+                "ethnam",
+                "framework"
+            ],
+            "time": "2015-11-23 06:57:12"
+        },
+        {
+            "name": "ethnam/generator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ethnamphp/generator.git",
+                "reference": "b5cc82ce5a336d496e7fb6994e523a7e60d726f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ethnamphp/generator/zipball/b5cc82ce5a336d496e7fb6994e523a7e60d726f6",
+                "reference": "b5cc82ce5a336d496e7fb6994e523a7e60d726f6",
+                "shasum": ""
+            },
+            "require": {
+                "ethnam/getopt": "1.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "bin": [
+                "bin/ethnam-generator"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ethnam\\Generator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-4-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "DQNEO",
+                    "role": "Administrator"
+                }
+            ],
+            "description": "code generator for Ethnam",
+            "homepage": "https://github.com/ethnamphp/ethnam-generator",
+            "keywords": [
+                "ethnam",
+                "framework"
+            ],
+            "time": "2015-06-23 05:26:12"
+        },
+        {
+            "name": "ethnam/getopt",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ethnamphp/getopt.git",
+                "reference": "c59d751c036b2c73476f9a5b948a01796785cfed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ethnamphp/getopt/zipball/c59d751c036b2c73476f9a5b948a01796785cfed",
+                "reference": "c59d751c036b2c73476f9a5b948a01796785cfed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ethnam\\Getopt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-4-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "DQNEO",
+                    "role": "Administrator"
+                }
+            ],
+            "description": "Getopt for Ethnam",
+            "homepage": "https://github.com/DQNEO/ethnam-getopt",
+            "keywords": [
+                "ethnam",
+                "framework"
+            ],
+            "time": "2015-05-05 03:34:11"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "v2.6.30",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "c5c9d6514ceaf15fe35345886668726829560f93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/c5c9d6514ceaf15fe35345886668726829560f93",
+                "reference": "c5c9d6514ceaf15fe35345886668726829560f93",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "libs/Smarty.class.php",
+                    "libs/Smarty_Compiler.class.php",
+                    "libs/Config_File.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2016-07-19 18:31:12"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ethnam/ethnam": 20,
+        "ethnam/generator": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

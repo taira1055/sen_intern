@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+/**
+ *  Ethnam Generator Command
+ *
+ */
+use Ethnam\Generator\Command;
+
+error_reporting(E_ALL);
+
+$binDir = __DIR__; // 'project/bin' or 'vendor/ethnam/generator/bin'
+
+if (basename(dirname($binDir)) === 'vendor') {
+    $vendorDir = dirname($binDir);
+} else {
+    $vendorDir = dirname(dirname(dirname($binDir)));
+    if (basename($vendorDir) !== 'vendor') {
+        throw new \Exception('vendir dir not found');
+    }
+}
+
+// 'vendor/autoload.php';
+require_once  $vendorDir . '/autoload.php';
+
+$handle = new Command;
+$statu = $handle->run();
+
+exit($statu);
